@@ -1,0 +1,15 @@
+.after1::after{
+    content: " Prueba After"
+}
+.before1::before{
+    content: "Prueba Before "
+}
+
+/* Para que la transición funcione al inicio y al final se pone dentro del PARENT del class (div, section, etc) */
+div{
+    transition: background-color 800ms;
+}
+
+div:hover{
+    background-color:  red;
+}
