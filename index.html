@@ -11,5 +11,17 @@
     <div class="after1">Extras de CSS</div>
     <div class="before1">Extras de CSS</div>
     <button>Contraste</button>
+
+
+<!--Para el uso de BEM a la hora de definir una class como "nav" el bloque (el elemento mayor) se pone como "nav" (o footer/header/section)
+    Luego de eso los elementos DENTRO de esa class se ponen con doble barra baja "__" seguido del elemento ejemplo "nav__link" o "nav__h1"/"sidebar__wrapper" y para poder agregarle estilo  el modificador final que sería "nav__link--active" como segunda clase,
+    Permite tener un mejor control de las clases, mayor entendimiento, etc. -->
+    <p>EJEMPLO DE USO DE BEM</p>
+    <nav class="nav">
+        <a href="" class="nav__link nav__link--active"></a>
+        <a href="" class="nav__link"></a>
+        <a href="" class="nav__link"></a>
+        <a href="" class="nav__link"></a>
+    </nav>
 </body>
 </html>
