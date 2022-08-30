@@ -13,3 +13,29 @@ div{
 div:hover{
     background-color:  red;
 }
+
+button {
+    margin-top: 50px;
+    margin-left: 50px;
+    animation: float 1000ms infinite alternate-reverse;
+    transition: all 5000ms;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+/* Definiendo una animación de transladar en Y y rotar en deg */
+
+@keyframes float {
+    0% {
+        transform: translateY(-50px) rotate(0deg) scale(1);
+    }
+    100% {
+        transform: translateY(50px) rotate(-360deg) scale(2);
+    }
+}
+
+body:active{
+    background-color:black;
+}
